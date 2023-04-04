@@ -1,1 +1,1 @@
-web: gunicorn madeiratrails.wasgi
+web: gunicorn madeira-trails.wasgi
