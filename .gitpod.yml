@@ -1,4 +1,4 @@
-image: node:buster
+image: 
   file: .gitpod.dockerfile
 tasks:
   - init: . ${GITPOD_REPO_ROOT}/.vscode/init_tasks.sh
