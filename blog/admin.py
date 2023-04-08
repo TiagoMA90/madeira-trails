@@ -9,12 +9,12 @@ class PostAdmin(SummernoteModelAdmin):
     # Displays the properties for the Post (title/slug/status/created date)
     list_display = ('title', 'slug', 'status', 'created_on')
     # Search field for content and title
-    searc_fields = ['title', 'content']
+    search_fields = ['title', 'content']
     # Automatically populates the slug field
-    prepopulated_fields = {'slug': ('title', )}
+    prepopulated_fields = {'slug': ('title',)}
     # filters the posts by status and created date
     list_filter = ('status', 'created_on')
-    summernote_fields = ('content')
+    summernote_fields = ('content',)
 
 # Class for the Comment
 @admin.register(Comment)
