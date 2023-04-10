@@ -46,12 +46,15 @@ INSTALLED_APPS = [
     'django_summernote',
     'blog',
     'allauth',
+    'crispy_forms',
 ]
 
 SITE_ID = 1
 
 LOGOUT_REDIRECT_URL = '/'
 LOGIN_REDIRECT_URL = '/'
+
+CRISPY_TEMPLATE_PACK = 'bootstrap4'
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
