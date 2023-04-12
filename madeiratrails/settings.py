@@ -29,8 +29,6 @@ DEBUG = True
 
 ALLOWED_HOSTS = ['madeira-trails.herokuapp.com', 'localhost']
 
-X_FRAME_OPTIONS = 'SAMEORIGIN'
-
 # Application definition
 
 INSTALLED_APPS = [
