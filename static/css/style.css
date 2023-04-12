@@ -1,16 +1,12 @@
 body {
-    background-color: #F9FAFC;
+    background-color: #fbfcf9;
 }
 
 .brand {
-    font-family: Lato, sans-serif;
-    font-size: 1.4rem;
+    font-family: 'Tourney', sans-serif;
+    font-size: 1.8rem;
     font-weight: 700;
-    color: #4A4A4F;
-}
-
-.red-o {
-    color: #E84610;
+    color: #ffffff;
 }
 
 .thin {
@@ -22,11 +18,11 @@ body {
 }
 
 .dark-bg {
-    background-color: #445261;
+    background-color: #ff0000;
 }
 
 .main-bg {
-    background-color: #F9FAFC;
+    background-color: #474735;
 }
 
 .card {
@@ -40,14 +36,15 @@ body {
 
 .image-flash {
     position: absolute;
+    border-radius: 10px;
     bottom: 5%;
     min-width: 30%;
     left: -2px;
-    background-color: #23BBBB;
+    background-color: #a88f00;
 }
 
 .author {
-    color: white;
+    color: #1d1d1d;
     margin: 4px;
     text-transform: uppercase;
 }
@@ -62,8 +59,9 @@ body {
 }
 
 .masthead-text {
-    background-color: #445261;
-    color: white;
+    font-family: 'Koulen';
+    background-color: #000000;
+    color: #a88f00;
     position: relative;
 }
 
@@ -72,28 +70,14 @@ body {
     overflow: hidden;
 }
 
-.masthead-image:after {
-    content: "";
-    position: absolute;
-    top: 0;
-    right: 90%;
-    height: 100%;
-    width: 150%;
-    background: #445261;
-    -webkit-transform: skew(15deg);
-    -moz-transform: skew(15deg);
-    transform: skew(15deg);
-    z-index: 100;
-}
-
 .post-link {
     text-decoration: none;
-    color: #445261;
+    color: #dddddd;
 }
 
 .post-link:hover,
 .page-link {
-    color: #E84610;
+    color: #ffffff;
 }
 
 .post-title {
@@ -129,14 +113,14 @@ body {
 }
 
 .btn-like {
-    color: #E84610;
+    color: #a88f00;
     border: none;
     background: transparent;
 }
 
 .btn-like:hover,
 .btn-like:active {
-    color: #E84610;
+    color: #d4b500;
     background: transparent;
     border: none;
 }
